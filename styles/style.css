@@ -1,0 +1,52 @@
+* {
+    font-family: Open Sans;
+}
+
+/* primary classes styels  */
+.primary-color {
+    color: #fd6e0a;
+}
+
+.primary-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.primary-btn {
+    width: 150px;
+    height: 64px;
+    background-color: #fd6e0a;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* header styles .............................. */
+
+header {
+    background-color: #FFF8F3;
+
+    height: 837px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 200px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+ul li {
+    margin-left: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
